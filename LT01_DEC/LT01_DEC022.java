@@ -9,13 +9,13 @@ public class LT01_DEC022 {
         v1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o seu primeiro valor:"));
         v2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o seu segundo valor:"));
         
-         resultado = OrganizaOrdem(v1, v2);
+         resultado = OrganizaOrdem2V(v1, v2);
 
          JOptionPane.showMessageDialog(null, resultado);
 
     }
 
-    public static String OrganizaOrdem( int valor1, int valor2){
+    public static String OrganizaOrdem2V( int valor1, int valor2){
 
         int maior = 0;
         int menor = 0;
